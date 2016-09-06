@@ -1,9 +1,11 @@
-package in.creativelizard.recorditsound;
+package in.creativelizard.recorditsound.activity;
 
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+
+import in.creativelizard.recorditsound.R;
 
 public class MainActivity extends AppCompatActivity {
     @Override
