@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initialize();
-        UVisualizar();
+
     }
 
     private void initialize() {
@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
             ImageView imageView = (ImageView)v.findViewWithTag("record");
             imageView.setImageResource(R.drawable.ic_mic_off);
             v.setTag("stop");
+            UVisualizar();
         } else {
             stopRecording();
             ImageView imageView = (ImageView)v.findViewWithTag("stop");

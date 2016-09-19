@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:background="@color/background_material_dark">
+        android:background="#ffffff">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -20,7 +20,8 @@
             android:scaleType="center"
             android:onClick="clkRecord"
             android:tag="record"
-            android:layout_weight="0"/>
+            android:layout_weight="0"
+            android:layout_margin="10dp"/>
 
         <LinearLayout
             android:orientation="vertical"
