@@ -18,7 +18,20 @@
             android:background="@drawable/record_button"
             android:src="@drawable/ic_mic"
             android:scaleType="center"
-            android:onClick="clkRecord"/>
+            android:onClick="clkRecord"
+            android:tag="record"
+            android:layout_weight="0"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <in.creativelizard.recorditsound.util.RecorderVisualizerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rvv"/>
+        </LinearLayout>
 
     </LinearLayout>
 
