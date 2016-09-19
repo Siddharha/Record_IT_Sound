@@ -1,4 +1,4 @@
-package in.creativelizard.recorditsound;
+package in.creativelizard.recorditsound.activity;
 
 
 import android.animation.PropertyValuesHolder;
@@ -16,6 +16,8 @@ import android.widget.Toast;
 import java.io.IOException;
 
 import in.creativelizard.recorditsound.util.RecorderVisualizerView;
+
+import in.creativelizard.recorditsound.R;
 
 public class MainActivity extends AppCompatActivity {
     private MediaRecorder mRecorder;
